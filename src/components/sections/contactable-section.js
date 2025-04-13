@@ -75,7 +75,7 @@ export function ContactableSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Have questions or want to learn more? We're here to help. Reach out through any of our channels 
+            Have questions or want to learn more? We&apos;re here to help. Reach out through any of our channels 
             or fill out the form below.
           </p>
         </div>
@@ -92,7 +92,7 @@ export function ContactableSection() {
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Message Sent!</h3>
                 <p className="text-muted-foreground">
-                  Thank you for reaching out. We'll get back to you as soon as possible.
+                  Thank you for reaching out. We&apos;ll get back to you as soon as possible.
                 </p>
               </div>
             ) : (
