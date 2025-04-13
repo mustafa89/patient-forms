@@ -1,5 +1,3 @@
-"use client";
-
 import { FloatingElement } from "@/components/ui/floating-element";
 import { Card3D } from "@/components/ui/card-3d";
 import { GradientButton } from "@/components/ui/gradient-button";

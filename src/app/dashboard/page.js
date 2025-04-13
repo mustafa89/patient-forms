@@ -1,5 +1,3 @@
-"use client"
-
 import { Card3D } from "@/components/ui/card-3d";
 import { FloatingElement } from "@/components/ui/floating-element";
 import { Button } from "@/components/ui/button";

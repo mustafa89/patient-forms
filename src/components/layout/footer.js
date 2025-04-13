@@ -1,5 +1,3 @@
-"use client";
-
 import { FloatingElement } from "@/components/ui/floating-element";
 
 export function Footer() {
