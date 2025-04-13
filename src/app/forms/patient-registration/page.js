@@ -134,20 +134,20 @@ export default function PatientRegistrationForm() {
         </Link>
         
         <div className="mb-8 text-center">
-          <h1 className="text-3xl font-bold mb-2">Patient Registration Form</h1>
+          <h1 className="text-3xl font-bold mb-2 text-foreground">Patient Registration Form</h1>
           <p className="text-muted-foreground">
             Please complete all fields marked with an asterisk (*). This information helps us provide you with the best care possible.
           </p>
         </div>
       </div>
       
-      <div className="bg-white dark:bg-gray-950 rounded-xl shadow-sm border p-8">
+      <div className="bg-card text-card-foreground rounded-xl shadow-sm border p-8">
         {isSubmitted ? (
           <div className="flex flex-col items-center justify-center text-center p-12 space-y-4">
             <div className="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full flex items-center justify-center mb-4">
               <Check className="h-8 w-8" />
             </div>
-            <h2 className="text-2xl font-bold">Form Submitted Successfully!</h2>
+            <h2 className="text-2xl font-bold text-foreground">Form Submitted Successfully!</h2>
             <p className="text-muted-foreground">Thank you for completing your registration. We'll be in touch shortly.</p>
             <Button className="mt-4" onClick={() => setIsSubmitted(false)}>Submit Another Response</Button>
           </div>
@@ -157,7 +157,7 @@ export default function PatientRegistrationForm() {
               {/* Section: Personal Information */}
               <div className="space-y-6">
                 <div className="border-b pb-2">
-                  <h2 className="text-xl font-semibold">Personal Information</h2>
+                  <h2 className="text-xl font-semibold text-foreground">Personal Information</h2>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -264,10 +264,10 @@ export default function PatientRegistrationForm() {
                 />
               </div>
               
-              {/* Section: Address */}
+              {/* Section: Address Information */}
               <div className="space-y-6">
                 <div className="border-b pb-2">
-                  <h2 className="text-xl font-semibold">Address</h2>
+                  <h2 className="text-xl font-semibold text-foreground">Address Information</h2>
                 </div>
                 
                 <FormField
@@ -332,7 +332,7 @@ export default function PatientRegistrationForm() {
               {/* Section: Insurance Information */}
               <div className="space-y-6">
                 <div className="border-b pb-2">
-                  <h2 className="text-xl font-semibold">Insurance Information</h2>
+                  <h2 className="text-xl font-semibold text-foreground">Insurance Information</h2>
                   <p className="text-muted-foreground text-sm">Optional, but recommended</p>
                 </div>
                 
@@ -370,7 +370,7 @@ export default function PatientRegistrationForm() {
               {/* Section: Medical Information */}
               <div className="space-y-6">
                 <div className="border-b pb-2">
-                  <h2 className="text-xl font-semibold">Medical Information</h2>
+                  <h2 className="text-xl font-semibold text-foreground">Medical Information</h2>
                 </div>
                 
                 <FormField
@@ -437,7 +437,7 @@ export default function PatientRegistrationForm() {
               {/* Section: Emergency Contact */}
               <div className="space-y-6">
                 <div className="border-b pb-2">
-                  <h2 className="text-xl font-semibold">Emergency Contact</h2>
+                  <h2 className="text-xl font-semibold text-foreground">Emergency Contact</h2>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -488,7 +488,7 @@ export default function PatientRegistrationForm() {
               {/* Section: Additional Information */}
               <div className="space-y-6">
                 <div className="border-b pb-2">
-                  <h2 className="text-xl font-semibold">Additional Information</h2>
+                  <h2 className="text-xl font-semibold text-foreground">Additional Information</h2>
                 </div>
                 
                 <FormField
