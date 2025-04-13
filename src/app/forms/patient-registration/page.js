@@ -148,7 +148,7 @@ export default function PatientRegistrationForm() {
               <Check className="h-8 w-8" />
             </div>
             <h2 className="text-2xl font-bold text-foreground">Form Submitted Successfully!</h2>
-            <p className="text-muted-foreground">Thank you for completing your registration. We'll be in touch shortly.</p>
+            <p className="text-muted-foreground">Thank you for completing your registration. We&apos;ll be in touch shortly.</p>
             <Button className="mt-4" onClick={() => setIsSubmitted(false)}>Submit Another Response</Button>
           </div>
         ) : (

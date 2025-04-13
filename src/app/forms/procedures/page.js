@@ -134,7 +134,7 @@ export default function GastroenterologyProcedureForm() {
         <div className="mb-8 text-center">
           <h1 className="text-3xl font-bold mb-2 text-foreground">Gastroenterology Procedure Form</h1>
           <p className="text-muted-foreground">
-            Please complete this form with the patient's procedure details and findings
+            Please complete this form with the patient&apos;s procedure details and findings
           </p>
         </div>
       </div>
